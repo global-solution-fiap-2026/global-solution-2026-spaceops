@@ -378,3 +378,4 @@ test_bst_inserir_multiplos PASSED
 **Desenvolvido para FIAP — Global Solution 2026**  
 **Disciplina:** Estruturas de Dados e Algoritmos  
 **Professor:** André Marques
+# global-solution-2026-spaceops
