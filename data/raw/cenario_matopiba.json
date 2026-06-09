@@ -1,0 +1,33 @@
+{
+  "cenario": "Triagem de Risco de Seca - MATOPIBA",
+  "descricao": "Grafo de municípios da região MATOPIBA com índice de risco derivado de NDVI e precipitação INMET",
+  "fonte": "NDVI MODIS/NASA + INMET",
+  "municipios": [
+    {"id": 2104658, "nome": "Balsas", "indice_risco": 0.95, "custo_atendimento": 1400.0, "populacao": 94000},
+    {"id": 1302603, "nome": "Imperatriz", "indice_risco": 0.92, "custo_atendimento": 1200.0, "populacao": 246000},
+    {"id": 1506302, "nome": "Araguaina", "indice_risco": 0.88, "custo_atendimento": 1100.0, "populacao": 170000},
+    {"id": 2211900, "nome": "Teresina", "indice_risco": 0.85, "custo_atendimento": 1300.0, "populacao": 868000},
+    {"id": 2410100, "nome": "Barreiras", "indice_risco": 0.82, "custo_atendimento": 1450.0, "populacao": 152000},
+    {"id": 2930400, "nome": "Luis Eduardo Magalhaes", "indice_risco": 0.98, "custo_atendimento": 1350.0, "populacao": 74000},
+    {"id": 2200404, "nome": "Caxias", "indice_risco": 0.79, "custo_atendimento": 1150.0, "populacao": 155000},
+    {"id": 1505999, "nome": "Gurupi", "indice_risco": 0.81, "custo_atendimento": 1050.0, "populacao": 76000},
+    {"id": 2111300, "nome": "Bacabal", "indice_risco": 0.77, "custo_atendimento": 980.0, "populacao": 107000},
+    {"id": 2200300, "nome": "Acailandia", "indice_risco": 0.75, "custo_atendimento": 1120.0, "populacao": 106000}
+  ],
+  "arestas": [
+    [2104658, 1302603, 3.5],
+    [1302603, 1506302, 4.2],
+    [1506302, 2211900, 5.8],
+    [2211900, 2410100, 6.1],
+    [2410100, 2930400, 2.9],
+    [2930400, 2104658, 4.5],
+    [1302603, 2200404, 3.1],
+    [2200404, 2111300, 4.8],
+    [1506302, 1505999, 3.2],
+    [2211900, 2200300, 5.4],
+    [2111300, 2200300, 2.7],
+    [2200300, 2200404, 1.9],
+    [1505999, 2410100, 7.2],
+    [2104658, 2111300, 8.3]
+  ]
+}

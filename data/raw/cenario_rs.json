@@ -1,0 +1,36 @@
+{
+  "cenario": "Rede de Resposta a Enchentes - Rio Grande do Sul",
+  "descricao": "Grafo baseado em municípios afetados pelas enchentes do RS em 2024",
+  "fonte": "Defesa Civil RS + DNIT",
+  "municipios": [
+    {"id": 4314902, "nome": "Porto Alegre", "indice_risco": 0.92, "custo_atendimento": 1850.0, "populacao": 1400000},
+    {"id": 4316808, "nome": "Novo Hamburgo", "indice_risco": 0.85, "custo_atendimento": 1200.0, "populacao": 261000},
+    {"id": 4317907, "nome": "Rio Grande", "indice_risco": 0.78, "custo_atendimento": 950.0, "populacao": 186000},
+    {"id": 4314706, "nome": "Pelotas", "indice_risco": 0.81, "custo_atendimento": 1100.0, "populacao": 320000},
+    {"id": 4305999, "nome": "Caxias do Sul", "indice_risco": 0.76, "custo_atendimento": 1400.0, "populacao": 435000},
+    {"id": 4322402, "nome": "Santa Maria", "indice_risco": 0.72, "custo_atendimento": 1600.0, "populacao": 290000},
+    {"id": 4305399, "nome": "Bage", "indice_risco": 0.68, "custo_atendimento": 1300.0, "populacao": 113000},
+    {"id": 4318700, "nome": "Sapucaia do Sul", "indice_risco": 0.88, "custo_atendimento": 1050.0, "populacao": 140000},
+    {"id": 4305205, "nome": "Alvorada", "indice_risco": 0.87, "custo_atendimento": 980.0, "populacao": 185000},
+    {"id": 4318403, "nome": "Salto do Jacui", "indice_risco": 0.79, "custo_atendimento": 850.0, "populacao": 32000},
+    {"id": 4315700, "nome": "Santo Angelo", "indice_risco": 0.74, "custo_atendimento": 1150.0, "populacao": 73000},
+    {"id": 4307005, "nome": "Bento Goncalves", "indice_risco": 0.71, "custo_atendimento": 1250.0, "populacao": 109000}
+  ],
+  "arestas": [
+    [4314902, 4316808, 2.5],
+    [4314902, 4318700, 1.8],
+    [4314902, 4305205, 1.2],
+    [4316808, 4318700, 1.5],
+    [4316808, 4307005, 4.2],
+    [4318700, 4305205, 0.9],
+    [4305205, 4318403, 2.8],
+    [4314902, 4314706, 4.5],
+    [4314706, 4317907, 3.2],
+    [4305999, 4322402, 5.1],
+    [4322402, 4315700, 6.3],
+    [4315700, 4307005, 3.8],
+    [4314902, 4305999, 7.2],
+    [4305999, 4307005, 2.9],
+    [4307005, 4314706, 8.1]
+  ]
+}
